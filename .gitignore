@@ -1,0 +1,178 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
+.env
+
+# Editor/IDE
+# .idea/
+# .vscode/
+
+# Binaires
+loganalyzer
+loganalyzer.exe
+LogAnalyzer
+LogAnalyzer.exe
+
+
+# Couverture de code
+coverage.txt
+coverage.html
+
+# Dépendances vendorisées (optionnel)
+vendor/
+
+# Fichiers Go
+*.orig
+
+# Profiling
+*.prof
+*.pprof
+cpu.prof
+mem.prof
+
+# Logs d'exemple volumineux (gardez sample.log mais ignorez les gros fichiers)
+data/*.log
+!data/sample.log
+data/*.txt
+data/access_*
+data/error_*
+data/nginx_*
+data/apache_*
+
+# Dossiers de sortie
+output/*.json
+output/*.csv
+output/*.html
+output/*.txt
+!output/.gitkeep
+
+# Dossiers temporaires
+tmp/
+temp/
+.tmp/
+
+# IDE et Éditeurs
+.vscode/
+*.swp
+*.swo
+*~
+
+# JetBrains (GoLand spécifique)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Archives et compressions
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Variables d'environnement
+.env.local
+.env.*.local
+
+# Fichiers de configuration sensibles
+config/production.yml
+config/secrets.yml
+*.key
+*.pem
+*.crt
+
+# Documentation générée
+docs/build/
+site/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.old
+
+# Scripts de build personnalisés
+build.sh
+deploy.sh
+release.sh
+
+# Métriques et benchmarks
+benchmarks/
+metrics/
+
+# Docker (si vous ajoutez Docker plus tard)
+Dockerfile.local
+docker-compose.override.yml
+
+# Kubernetes (si déployé)
+k8s-local/
+*.kubeconfig
+
+# Performance et debug
+*.trace
+debug
+debug.log
+pprof/
+
+# Fichiers de cache
+.cache/
+cache/
+
+# Node modules (si vous ajoutez des outils JS)
+node_modules/
+
+# Python (si vous ajoutez des scripts Python)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Fichiers spécifiques au projet LogAnalyzer
+results/
+reports/
+exports/
+analysis/
+parsed_logs/
