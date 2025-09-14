@@ -35,8 +35,8 @@
 ### Compilation
 ```bash
 # Cloner le repository
-git clone https://github.com/Jamil18474/LogAnalyzer-Go.git
-cd LogAnalyzer-Go
+git clone https://github.com/Jamil18474/LogAnalyzer.git
+cd LogAnalyzer
 
 # Installer les dépendances
 go mod tidy
